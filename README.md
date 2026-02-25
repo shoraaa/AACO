@@ -65,11 +65,6 @@ AACO found new best-known solutions for several instances, surpassing results fr
 
 > **Note:** The *Tnm* datasets are designed to be difficult for heuristic solvers like LKH. AACO's ability to improve these solutions demonstrates the robustness of the ant colony approach.
 
-### Visualizing the Solution
-
-![Mona Lisa Tour](path/to/mona-lisa100K.png)
-*Visual representation of the solution constructed by AACO for the mona-lisa100K dataset.*
-
 ## ⚙️ Algorithm Overview
 
 ### Smooth Max-Min Ant System (SMMAS)
@@ -83,8 +78,6 @@ The algorithm starts with a small population to quickly identify good "skeleton"
 *   **Late Phase:** High ant count $\to$ High exploration to break local optima.
 
 ## 🔧 Usage
-
-*(Include instructions on how to build and run your code here. Example below:)*
 
 ```bash
 # Clone the repository
