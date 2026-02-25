@@ -88,15 +88,13 @@ The algorithm starts with a small population to quickly identify good "skeleton"
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AACO-TSP.git
+git clone https://github.com/shoraaa/AACO
 
 # Build
-mkdir build && cd build
-cmake ..
 make
 
-# Run on a specific instance
-./aaco_solver --instance ../data/mona-lisa100K.tsp --ants 432 --steps 4000
+# Run
+./faco
 ```
 
 ## 📝 Citation
